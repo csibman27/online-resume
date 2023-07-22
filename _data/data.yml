@@ -28,7 +28,7 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
+  github:                   csibman27          | https://github.com/csibman27
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -107,9 +107,9 @@ experience:
         + Data center lifecycle management.
 
     - company: Aptus Broadband
-      link:
+      link: 'https://aptus.ie/'
       tags: Full-time, on-site
-      date: 2019
+      date: 2019 - 2020
       role: IT Support
       location: Bagenalstown, Carlow, Ireland
       description: |
@@ -119,7 +119,7 @@ experience:
         + Network devices management
     
     - company: Waterford Castle Hotel & Golf Resort, Waterford Ireland
-      link:
+      link: 'https://www.waterfordcastleresort.com/'
       tags: Full-time
       date: 2012 - 2018
       role: Restaurant Manager
@@ -140,7 +140,7 @@ experience:
         + Computer software installation and maintenance
 
     - company: Group 4 Security, Budapest Hungary
-      link:
+      link: 'https://www.g4s.com/'
       tags: Full-time
       date: 2004 - 2009
       role: Account Records Clerk Payroll
@@ -155,30 +155,69 @@ project:
   order: 3
   title: Projects
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Personal project
+    - name: Work project - Quantum Ip Encrypor monitoring
       link: '#'
       tags:
-      date: 2015 - 2017
+      date: 2023
+      description: |
+        + Python code
+        + MQTT
+        + InfluxDB
+        + Grafana monitoring
+
+    - name: Work Project - Eddy Covariance tower
+      link:
+      tags:
+      date: 2021 - 2022
+      description: |
+        + Build an eddy covariance tower
+        + Build Network Communication with EC tower 
+         
+    - name: Work Project - Mailman3
+      link: '#'
+      tags:
+      date: 2021
+      description: |
+        + Build and Deploy mailman3 listserv 
+
+
+    - name: Personal private project - Hotel Management system
+      link: '#'
+      tags:
+      date: 2020
+      description: |
+        + booking system
+
+    - name: Personal private project - RageDB
+      link: '#'
+      tags:
+      date: 2019
       description: |
         Personal project description...
-        + First
-        + Second
-
-    - name: OSS project
+        + This program is used to read and transform CSV file format to an XSL file format
+        + The input is limited to eircode
+        + The program can be used to load all the eircode and pin locations in Google Earth for visual analysis
+    
+    - name: WIT College Project AWS
       link:
-      tags: committer
-      date:
+      tags:
+      date: 2018
       description: |
-        OSS project description...
-        + First
-        + Second
+        + Elastic Compute Cloud EC2
+        + Load Balancer
+        + SQL Server in a private subnet
+        + Virtual Private Cloud
+        + Auto Scaling Group
+
+    - name: WIT College Project - E-commerce website
+      link:
+      tags:
+      date: 2016
+      description: |
+        + e-commerce
+        + website
 
 skill:
   show: true
@@ -418,14 +457,7 @@ reference:
   order: 14
   title: References
   description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
-
+    References upon request.
   items:
     - name: Foo One
       link: '#'
