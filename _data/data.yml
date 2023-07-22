@@ -85,7 +85,7 @@ profile:
   description: |
     A highly motivated, reliable, and dedicated person. I have been interested in IT Computing and electronics since childhood. 
     Mostly administering and using Unix operating systems, but I also like and manage Windows systems and applications. 
-    I graduated college with a Bachelors in IT in 2016 and since I am learning and developing skills continuously. 
+    I graduated college with a Bachelors in IT in 2016 and since I am learning and developing my skills continuously. 
    
 experience:
   show: true
@@ -113,6 +113,7 @@ experience:
       role: IT Support
       location: Bagenalstown, Carlow, Ireland
       description: |
+        + Fixed wireless technology
         + IT Support using Ticketing System
         + Logistics management
         + Communicating and negotiating with users and other staff
@@ -133,7 +134,7 @@ experience:
       link:
       tags: Part-time
       date: 2009 - 2011
-      role: Backend Developer
+      role: Hardware Specialist
       location: Eger, Hungary
       description: |
         + Computer hardware service and maintenance
@@ -195,7 +196,6 @@ project:
       tags:
       date: 2019
       description: |
-        Personal project description...
         + This program is used to read and transform CSV file format to an XSL file format
         + The input is limited to eircode
         + The program can be used to load all the eircode and pin locations in Google Earth for visual analysis
