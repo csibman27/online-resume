@@ -87,60 +87,68 @@ profile:
     Mostly administering and using Unix operating systems, but I also like and manage Windows systems and applications. 
     I graduated college with a Bachelors in IT in 2016 and since I am learning and developing skills continuously. 
    
-
 experience:
   show: true
   order: 2
   title: Experiences
-  description: |
-    # Systems Administrator & Researcher SETU, Waterford, Ireland
-    March 2020
-
-    Responsible for configuring and managing Walton Institute and Arclabs companies' infrastructure, including all the hardware, software, and operating systems necessary to support the business.
-    Internal IT support, research for innovative technologies and data center lifecycle management.
-
-    # Technical Coordinator at Aptus Broadband, Carlow Ireland 
-    January 2019 
-
-    IT Support Ticketing System, Logistics management, communicating and negotiating with users and other staff, network devices management. 
-
-    # Waterford Castle Hotel & Golf Resort, Waterford Ireland 
-    June 2012 May 2018 
-
-    In the number of years, I have worked here I gained prominent level of Customer Relation Management skill. 
-
-    # Fabex Computer, Eger Hungary 
-    May 2009 - 2011 
-
-    Maintain and Installation of operation systems and software 
-
-    # Account Records Clerk Payroll at G4S, Eger Hungary 
-    June 2004 March 2009 
-
-    For the length of time, I worked here I gained flexibility, Integrity, and a high standard of work ethic. 
+  description: | 
 
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+    - company: South East Technological University
+      link: 'https://waltoninstitute.ie/'
+      tags: Full-time, hybrid
+      date: 2020
+      role: Systems Administrator & Researcher
+      location: Waterford, Ireland
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Responsible for configuring and managing Walton Institute and Arclabs companies' infrastructure, including all the hardware, software, and operating systems necessary to support the business.
+        + Internal IT support
+        + Research for innovative technologies
+        + Data center lifecycle management.
 
-    - company: First Company
+    - company: Aptus Broadband
       link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
+      tags: Full-time, on-site
+      date: 2019
+      role: IT Support
+      location: Bagenalstown, Carlow, Ireland
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + IT Support using Ticketing System
+        + Logistics management
+        + Communicating and negotiating with users and other staff
+        + Network devices management
+    
+    - company: Waterford Castle Hotel & Golf Resort, Waterford Ireland
+      link:
+      tags: Full-time
+      date: 2012 - 2018
+      role: Restaurant Manager
+      location: Waterford, Ireland
+      description: |
+        + Customer Relation Management skill
+        + Team Management Skill
+        + Organization of professional events and meetings
+
+    - company: Fabex Computer
+      link:
+      tags: Part-time
+      date: 2009 - 2011
+      role: Backend Developer
+      location: Eger, Hungary
+      description: |
+        + Computer hardware service and maintenance
+        + Computer software installation and maintenance
+
+    - company: Group 4 Security, Budapest Hungary
+      link:
+      tags: Full-time
+      date: 2004 - 2009
+      role: Account Records Clerk Payroll
+      location: Budapest, Hungary
+      description: |
+        + Flexibility
+        + Accuracy
+        + High standard of work ethic    
 
 project:
   show: true
