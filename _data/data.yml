@@ -10,13 +10,13 @@ contact:
   location: Waterford, Ireland
   email: tmolnair@gmail.com    # email address
   phone: +353 87-6145869  # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: www.linkedin.com/in/tibor-molnar-564293106     # site URL without schema, like example.com, will automatically prepand "https://"
+  # website: www.linkedin.com/in/tibor-molnar-564293106     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
   nationality:             # nationality
   visa:                    # passport visa
-  drivinglicense:          # driving licence
+  drivinglicense:          Full driving licence
 
   # contact
   wechat:                  # username
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
+  linkedin:                 tibor-molnar-564293106 | https://linkedin.com/in/tibor-molnar-564293106
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -158,7 +158,7 @@ project:
 
   items:
     - name: Work project - Quantum Ip Encrypor monitoring
-      link: '#'
+      link:
       tags:
       date: 2023
       description: |
@@ -176,7 +176,7 @@ project:
         + Build Network Communication with EC tower 
          
     - name: Work Project - Mailman3
-      link: '#'
+      link:
       tags:
       date: 2021
       description: |
@@ -184,14 +184,14 @@ project:
 
 
     - name: Personal private project - Hotel Management system
-      link: '#'
+      link:
       tags:
       date: 2020
       description: |
         + booking system
 
     - name: Personal private project - RageDB
-      link: '#'
+      link:
       tags:
       date: 2019
       description: |
@@ -224,107 +224,98 @@ skill:
   order: 4
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+    There are multiple ways to present skills but way is to show them in a rating format.
+    I have listed some soft skills that I think important and I'm aware of.
 
   items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
+    - name: Programming Javascript
       level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
+    - name: Programming Python
+      level: 2
+    - name: Programming Bash
       level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
+    - name: Ansible
+      level: 2
+    - name: Markup
+      level: 2
+    - name: Git
       level: 3
-
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+    - name: Virtualization
+      level: 4
+    - name: Monitoring 
+      level: 3
+    - name: Emails
+      level: 3
+    - name: Networking
+      level: 3
+# Hard skills honesty and integrity, excellent interpersonal skill, problem solving, time management, multilingual
 
 education:
   show: true
   order: 5
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
+    - institution: South East Technological University, Waterford, Ireland
+      link: 'https://www.setu.ie/'
+      date: 2021 - 2023
+      major: Higher Diploma in Computer Science
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        + HDIP in Computer Science course is focuses on full stack development.
+
+    - institution: Waterford Institute of Technology, Waterford, Ireland
+      link: 'https://www.wit.ie/'
+      date: 2016 - 2019
+      major: Bachelor of Science in Information Technology
+      degree: Bachelor
+      description: |
+        + This course is built on three core computing areas, Databases and Information Systems, Computer Networks, Cloud Computing and Programming.
 
 certificate:
   show: true
   order: 6
   title: Certificates
   description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
-
-    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
-
-    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
 
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
+    - name: NDG Linux Essentials
+      issuer: by Cisco Networking Academy
+      date: 2023
+      link:
       description: |
-        It's my Example Certificate One by Example.
-    - name: Example Certificate Two
-      issuer: by Example
+        IT skills & career building program, available to learning institutions & individuals worldwide - developed by Cisco CSR
+    - name: Learning Nagios
+      issuer: by LinkedIn
       date: 2020
       link:
       description: |
-        It's my Example Certificate Two by Example.
+        Learning how to use Nagios core monitoring
+    - name: Research Integrity - Engineering and Technology
+      issuer: by Oxford University Press
+      date: 2020
+      link:
+      description: |
+        Quality research and education resources
+    - name: Deploying and Configuring Core TCP/IP Services
+      issuer: by LinkedIn
+      date: 2020
+      link:
+      description: |
+        Learning more about TCP/IP protocol
+    - name: Windows Server 2012 Install, Configure, and Administer Active Directory
+      issuer: by LinkedIn
+      date: 2020
+      link:
+      description: |
+        Windows hierarchy system
+    - name: Windows Server 2012 Install and Configuration
+      issuer: by LinkedIn
+      date: 2020
+      link:
+      description: |
+        More about Windows Server deployment
 
 publication:
   show: true
