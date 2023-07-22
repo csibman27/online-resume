@@ -224,20 +224,20 @@ skill:
   order: 4
   title: Skills
   description: |
-    There are multiple ways to present skills but way is to show them in a rating format.
-    I have listed some soft skills that I think important and I'm aware of.
+    There are multiple ways to present skills but my way is to show them in a rating format.
+    I have listed some of my soft skills that I think important and I'm aware of.
 
   items:
     - name: Bash script
       level: 3
     - name: Javascript
-      level: 2
+      level: 3
     - name: Python
       level: 3
     - name: Automatization
-      level: 2
+      level: 3
     - name: Markup
-      level: 2
+      level: 3
     - name: Git
       level: 3
     - name: Virtualization
@@ -247,11 +247,11 @@ skill:
     - name: Emails
       level: 3
     - name: Networking
-      level: 3
-    - name: IT hardware
       level: 4
+    - name: IT hardware
+      level: 5
     - name: Operating Systems
-      level: 3
+      level: 4
 # Hard skills honesty and integrity, excellent interpersonal skill, problem solving, time management, multilingual
 
 education:
