@@ -1,6 +1,6 @@
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Tibor Molnar                      # name
+  title: Systems Administrator & Researcher           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
