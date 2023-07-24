@@ -85,7 +85,8 @@ profile:
   description: |
     A highly motivated, reliable, and dedicated person. I have been interested in IT Computing and electronics since childhood. 
     Mostly administering and using Unix operating systems, but I also like and manage Windows systems and applications. 
-    I graduated college with a Bachelors in IT in 2016 and since I am learning and developing my skills continuously. 
+    I graduated college with a Bachelors in IT in 2016 and since I am learning and developing my skills continuously.
+    I have used R before to create and model network topologies for general routing decisions.
    
 experience:
   show: true
@@ -181,8 +182,15 @@ project:
       tags:
       date: 2021
       description: |
-        + Build and Deploy mailman3 listserv 
-
+        + Build and Deploy mailman3 listserv
+    
+    - name: Personal Project - Network Topology with R
+      link:
+      tags:
+      date: 2021
+      description: |
+        + Model a particular network topology using R
+        + Improves decision making about what network routing protocols to use
 
     - name: Personal private project - Hotel Management system
       link:
