@@ -86,7 +86,7 @@ profile:
     A highly motivated, reliable, and dedicated person. I have been interested in IT Computing and electronics since childhood. 
     Mostly administering and using Unix operating systems, but I also like and manage Windows systems and applications. 
     I graduated college with a Bachelors in IT in 2016 and since I am learning and developing my skills continuously.
-    I have used R before to create and model network topologies for general routing decisions.
+    My current work allowing me to look after a data center where ICHEC is hosting it's super computer. 
    
 experience:
   show: true
@@ -95,7 +95,7 @@ experience:
   description: | 
 
   items:
-    - company: South East Technological University
+    - company: South East Technological University - Walton Institute
       link: 'https://waltoninstitute.ie/'
       tags: Full-time, hybrid
       date: 2020
@@ -105,7 +105,9 @@ experience:
         + Responsible for configuring and managing Walton Institute and Arclabs companies' infrastructure, including all the hardware, software, and operating systems necessary to support the business.
         + Internal IT support
         + Research for innovative technologies
-        + Data center lifecycle management.
+        + Monitoring infrastructure and data center
+        + Data center lifecycle management
+        + Data center and HPC hardware maintenance
 
     - company: Aptus Broadband
       link: 'https://aptus.ie/'
