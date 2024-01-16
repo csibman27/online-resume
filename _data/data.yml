@@ -83,10 +83,11 @@ profile:
   order: 1
   title: Profile
   description: |
-    I am a highly motivated, reliable, and dedicated person. I have been interested in IT, computing, and electronics since childhood. I mostly administer and use Linux-based systems, but I also like and manage Windows systems and applications.
-    I graduated college with a bachelor's in IT in 2016, and since then I have been learning and developing my skills continuously.
-    My current work allows me to look after a data center where I host and maintain services and an OpenStack cloud.
-    In this data center, the Irish Centre for High-End Computing is hosting its supercomputer, which I maintain as part of a team.
+  
+    I am a motivated, reliable, and dedicated individual with a strong passion for IT, computing, and electronics that dates back to my childhood. My expertise primarily lies in administering and utilizing Linux-based systems, although I also have experience in managing Windows systems and applications.
+    In 2016, I obtained my bachelor's degree in IT from college, and since then, I have been actively engaged in continuous learning and skill development. Currently, I am employed in a role where I am responsible for the management and maintenance of a data center. Within this role, I oversee the hosting and maintenance of various services, as well as an OpenStack cloud platform.
+    An exciting aspect of my work involves supporting the Irish Centre for High-End Computing, where I am part of a team responsible for the maintenance and upkeep of their supercomputer. This collaborative effort allows me to contribute to cutting-edge computing advancements in a dynamic and challenging environment.
+    I take great pride in my ability to stay up to date with the latest industry trends and technologies, and I am always eager to expand my knowledge and skills. I am confident that my dedication and expertise make me a valuable asset in any IT-related role.
    
 experience:
   show: true
@@ -102,8 +103,10 @@ experience:
       role: Systems Administrator & Researcher
       location: Waterford, Ireland
       description: |
+        + Project based work with weekly OKR meetings
         + Responsible for configuring and managing Walton Institute and Arclabs companies' infrastructure, including all the hardware, software, and operating systems necessary to support the business.
         + Internal IT support
+        + Automation with ansible and bash
         + Research for innovative technologies
         + Monitoring infrastructure and data center
         + Data center lifecycle management
@@ -120,7 +123,7 @@ experience:
         + IT Support using Ticketing System
         + Logistics management
         + Communicating and negotiating with users and other staff
-        + Network devices management
+        + Network hardware devices management
     
     - company: Waterford Castle Hotel & Golf Resort, Waterford Ireland
       link: 'https://www.waterfordcastleresort.com/'
@@ -161,7 +164,7 @@ project:
   description: |
 
   items:
-    - name: Work project - Quantum Ip Encrypor monitoring
+    - name: Work project - Monitoring for Thales Ip Encrypors
       link:
       tags:
       date: 2023
@@ -234,22 +237,22 @@ skill:
   order: 4
   title: Skills
   description: |
-    There are multiple ways to present skills but my way is to show them in a rating format.
-    I have listed some of my soft skills that I think important and I'm aware of.
+    I prefer to showcase my skills in a rating format as I believe it provides a clear representation.
+    Below, I have listed some of the high level skills I consider important and possess awareness of
 
   items:
-    - name: Bash script
+    - name: Coding
       level: 3
-    - name: Javascript
+    - name: API
       level: 3
-    - name: Python
-      level: 3
+    - name: Consultation
+      level: 4
     - name: Automatization
-      level: 3
-    - name: Markup
-      level: 3
+      level: 4
+    - name: Troubleshooting
+      level: 5
     - name: Git
-      level: 3
+      level: 4
     - name: Virtualization
       level: 4
     - name: Monitoring
@@ -277,7 +280,7 @@ education:
       major: Higher Diploma in Computer Science
       degree: Bachelor
       description: |
-        + HDIP in Computer Science course is focuses on full stack development.
+        + The HDIP in Computer Science course has a strong focus on full stack development.
 
     - institution: Waterford Institute of Technology, Waterford, Ireland
       link: 'https://www.wit.ie/'
@@ -294,6 +297,12 @@ certificate:
   description: |
 
   items:
+    - name: Safe Pass
+      issuer: Solas
+      date: 2023/09/01
+      link:
+      description: |
+        Safe Pass is a mandatory safety awareness training programme for construction workers.
     - name: Protecting Data when Home Working in Ireland
       issuer: Legal Island
       date: 2023/08/15
