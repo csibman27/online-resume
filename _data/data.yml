@@ -28,7 +28,7 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                   csibman27          | https://github.com/csibman27
+  github:                  https://github.com/csibman27
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                 tibor-molnar-564293106 | https://linkedin.com/in/tibor-molnar-564293106
+  linkedin:                https://linkedin.com/in/tibor-molnar-564293106
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -93,7 +93,7 @@ experience:
   show: true
   order: 2
   title: Experiences
-  description: | 
+  description: |
 
   items:
     - company: South East Technological University - Walton Institute
@@ -164,6 +164,14 @@ project:
   description: |
 
   items:
+    - name: More public projects can be found on github
+      link:
+      tags:
+      date: 2024
+      description: |
+        + Github: https://github.com/csibman27
+        + Gitlab: Only private
+
     - name: Work project - Monitoring for Thales Ip Encrypors
       link:
       tags:
@@ -250,7 +258,7 @@ skill:
     - name: Automatization
       level: 4
     - name: Troubleshooting
-      level: 5
+      level: 4
     - name: Git
       level: 4
     - name: Virtualization
@@ -262,7 +270,7 @@ skill:
     - name: Networking
       level: 4
     - name: IT hardware
-      level: 5
+      level: 4
     - name: Operating Systems
       level: 4
 # Hard skills honesty and integrity, excellent interpersonal skill, problem solving, time management, multilingual
