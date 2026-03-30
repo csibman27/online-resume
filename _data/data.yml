@@ -112,7 +112,7 @@ experience:
         + Internal IT support
         + Automation with ansible and bash
         + Research for innovative technologies
-        + Monitoring infrastructure and data center
+        + Infrastructure and data center monitoring
         + Data center lifecycle management
         + Data center and HPC hardware maintenance
 
@@ -127,7 +127,7 @@ experience:
         + IT Support using Ticketing System
         + Logistics management
         + Communicating and negotiating with users and other staff
-        + Network hardware devices management
+        + IT Network device management
     
     - company: Waterford Castle Hotel & Golf Resort, Waterford Ireland
       link: 'https://www.waterfordcastleresort.com/'
@@ -148,7 +148,7 @@ experience:
       location: Eger, Hungary
       description: |
         + Computer hardware service and maintenance
-        + Computer software installation and maintenance
+        + Computer software systems installation and maintenance
 
     - company: Group 4 Security, Budapest Hungary
       link: 'https://www.g4s.com/'
@@ -167,14 +167,24 @@ project:
   title: Projects
   description: |
 
+
   items:
-    - name: More public projects can be found on github
+    - name: Build a redundant DHCP server for Arclabs companies
+      link:
+      tags:
+      date: 2025
+      description: |
+        + DHCP
+        + Proxmox
+        + Ansible
+
+    - name: Lifecycle Manager and Cataloge
       link:
       tags:
       date: 2024
       description: |
-        + Github: https://github.com/csibman27
-        + Gitlab: Only private
+        + Server catalogue
+        + Determine server and lan devices age
 
     - name: Work project - Monitoring for Thales Ip Encrypors
       link:
@@ -191,15 +201,16 @@ project:
       tags:
       date: 2021 - 2022
       description: |
-        + Build an eddy covariance tower
-        + Build Network Communication with EC tower 
+        + Build an Eddy covariance tower
+        + Build IT Networking for EC tower and data logging 
          
     - name: Work Project - Mailman3
       link:
       tags:
       date: 2021
       description: |
-        + Build and Deploy mailman3 listserv
+        + Build, deploy and automate mailman3 listserv
+        + Ansible
     
     - name: Personal Project - Network Topology with R
       link:
@@ -215,6 +226,7 @@ project:
       date: 2020
       description: |
         + booking system
+        + Javascript + NodeJs
 
     - name: Personal private project - RageDB
       link:
@@ -242,42 +254,42 @@ project:
       date: 2016
       description: |
         + e-commerce
-        + website
+        + java
 
-skill:
-  show: true
-  order: 4
-  title: Skills
-  description: |
-    I prefer to showcase my skills in a rating format as I believe it provides a clear representation.
-    Below, I have listed some of the high level skills I consider important and possess awareness of
+# skill:
+#   show: true
+#   order: 4
+#   title: Skills
+#   description: |
+#     I prefer to showcase my skills in a rating format as I believe it provides a clear representation.
+#     Below, I have listed some of the high level skills I consider important and possess awareness of
 
-  items:
-    - name: Coding
-      level: 3
-    - name: API
-      level: 3
-    - name: Consultation
-      level: 4
-    - name: Automatization
-      level: 4
-    - name: Troubleshooting
-      level: 4
-    - name: Git
-      level: 4
-    - name: Virtualization
-      level: 4
-    - name: Monitoring
-      level: 3
-    - name: Emails
-      level: 3
-    - name: Networking
-      level: 4
-    - name: IT hardware
-      level: 4
-    - name: Operating Systems
-      level: 4
-# Hard skills honesty and integrity, excellent interpersonal skill, problem solving, time management, multilingual
+#   items:
+#     - name: Coding
+#       level: 3
+#     - name: API
+#       level: 3
+#     - name: Consultation
+#       level: 4
+#     - name: Automatization
+#       level: 4
+#     - name: Troubleshooting
+#       level: 4
+#     - name: Git
+#       level: 4
+#     - name: Virtualization
+#       level: 4
+#     - name: Monitoring
+#       level: 3
+#     - name: Emails
+#       level: 3
+#     - name: Networking
+#       level: 4
+#     - name: IT hardware
+#       level: 4
+#     - name: Operating Systems
+#       level: 4
+# # Hard skills honesty and integrity, excellent interpersonal skill, problem solving, time management, multilingual
 
 education:
   show: true
