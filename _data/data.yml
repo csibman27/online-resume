@@ -1,6 +1,6 @@
 basic:
   name: Tibor Molnar                      # name
-  title: Systems Administrator & Researcher           # job title
+  title: Infrastructure & Quantum Engineer          # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/144_HQ4A0168.JPG # avatar file path
@@ -9,7 +9,7 @@ contact:
   # meta
   location: Waterford, Ireland
   email: tmolnair@gmail.com    # email address
-  phone: +353 87-6145869  # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  phone: # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   # website: www.linkedin.com/in/tibor-molnar-564293106     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender:                  # gender or pronoun
@@ -84,14 +84,13 @@ profile:
   title: Profile
   description: |
   
-    I am a motivated, reliable, and dedicated individual with a strong passion for IT, computing, and electronics that dates back to my childhood.
-    My expertise primarily lies in administering and using Linux and Unix based systems, although I also have experience in managing Windows systems and
-    applications.
-    In 2016, I obtained my Bachelor's degree in IT from college, and since then, I have been actively engaged in continuous learning and skill development.
-    Currently, I am employed in a role where I am responsible for the network operation of a data center. Within this role, I oversee the hosting
-     and maintenance of various services, as well as an OpenStack cloud and Openshift platforms.
-    I take great pride in my ability to stay up to date with the latest industry trends and technologies, and I am always eager to expand my knowledge
-     and skills. I am confident that my dedication and expertise make me a valuable asset in any IT-related role.
+    Technical Officer and Infrastructure Engineer with 6+ years at a leading Irish research institute, specialising in the design, deployment, and administration of complex, high-performance computing environments and cutting-edge quantum infrastructure.
+    My hands-on experience spans the full data center stack, from physical infrastructure including UPS systems, diesel generators and chiller cooling systems, through to virtualisation (Openstack, VMware ESXi, Proxmox), SAN storage, and enterprise networking with Cisco and Arista switching platforms.
+    On the quantum side, I manage and configure quantum cryptographic equipment including quantum IP encryptors, Quantum Random Number Generators (QRNGs), and Quantum Hardware Security Modules (HSMs),  a rare and highly specialised skillset with very few practitioners globally.
+    I take a DevOps approach to infrastructure management, using Ansible to automate the deployment and configuration of critical infrastructure services including DNS, DHCP, Checkmk, Nagios, LISTSERV, and many others. I also administer OpenShift and OpenStack platforms, bridging traditional infrastructure with modern cloud-native environments.
+    Monitoring and reliability are core to my work, with hands-on experience across Checkmk and Nagios for system observability across large-scale environments.
+    Academically, I hold a BSc in Information Technology and an HDip in Computer Science, I am currently completing a Master's degree in Computer Science, and hold a Red Hat Certified System Administrator (RHCSA) certification. I am also expanding into IBM mainframe technologies as part of my ongoing professional development.
+    Open to senior infrastructure, DevOps, data centre, network engineering, and quantum technology roles across Ireland, Europe, and remote.
    
 experience:
   show: true
@@ -103,18 +102,33 @@ experience:
     - company: South East Technological University - Walton Institute
       link: 'https://waltoninstitute.ie/'
       tags: Full-time, hybrid
-      date: 2020
+      date: Jun 2024 - Present
+      role: Technical Officer
+      location: Waterford, Ireland
+      description: |
+        + Manage and configure quantum cryptographic infrastructure including quantum IP encryptors, Quantum Random Number Generators (QRNGs), and Quantum Hardware Security Modules (HSMs)
+        + Administer and manage Cisco and Arista switching platforms, overseeing VLANs, network segmentation
+        + Develop and maintain Ansible playbooks to automate deployment and configuration of critical infrastructure services including DNS, DHCP, Checkmk, Nagios, LISTSERV, and many others
+        + Administer OpenShift container platform supporting research computing workloads
+        + Provide technical consulting and IT guidance to researchers and academic staff
+        + Expanding into IBM Z mainframe technologies as part of ongoing professional development
+        + Perform network patching and infrastructure cabling within the data center environment
+
+    - company: South East Technological University - Walton Institute
+      link: 'https://waltoninstitute.ie/'
+      tags: Full-time, hybrid
+      date: Mar 2020 - Jun 2024
       role: Systems Administrator & Researcher
       location: Waterford, Ireland
       description: |
-        + Project based work with weekly OKR meetings
-        + Responsible for configuring and managing Walton Institute and Arclabs companies' infrastructure, including all the hardware, software, and operating systems necessary to support the business.
-        + Internal IT support
-        + Automation with ansible and bash
-        + Research for innovative technologies
-        + Infrastructure and data center monitoring
-        + Data center lifecycle management
-        + Data center and HPC hardware maintenance
+        + Operated and maintained a High Performance Computing (HPC) environment including supercomputer infrastructure
+        + Managed virtualisation platforms including VMware ESXi, Proxmox, and OpenStack across Dell PowerEdge server estate
+        + Administered SAN storage and LDAP directory services
+        + Maintained data centre physical infrastructure including UPS systems, diesel generators, and chiller cooling systems
+        + Implemented and managed system monitoring using Checkmk and Nagios
+        + Automated infrastructure deployments using Ansible, improving consistency and reducing manual configuration effort
+        + Managed network infrastructure and administered Linux-based systems across the institute's research environment
+        + Conducted data centre lifecycle management including hardware inventory and capacity planning
 
     - company: Aptus Broadband
       link: 'https://aptus.ie/'
@@ -123,11 +137,9 @@ experience:
       role: IT Support
       location: Bagenalstown, Carlow, Ireland
       description: |
-        + Fixed wireless technology
-        + IT Support using Ticketing System
-        + Logistics management
-        + Communicating and negotiating with users and other staff
-        + IT Network device management
+        + Provided technical support for fixed wireless broadband infrastructure
+        + Managed network devices and resolved customer connectivity issues via ticketing system
+        + Coordinated logistics and communicated technical solutions to non-technical users
     
     - company: Waterford Castle Hotel & Golf Resort, Waterford Ireland
       link: 'https://www.waterfordcastleresort.com/'
@@ -136,9 +148,9 @@ experience:
       role: Restaurant Manager
       location: Waterford, Ireland
       description: |
-        + Customer Relation Management skill
-        + Team Management Skill
-        + Organization of professional events and meetings
+        + Managed front-of-house operations and staff for a 4-star hotel restaurant
+        + Developed strong customer relationship management and conflict resolution skills
+        + Organised and coordinated professional events, conferences, and private dining
 
     - company: Fabex Computer
       link:
@@ -157,9 +169,8 @@ experience:
       role: Account Records Clerk Payroll
       location: Budapest, Hungary
       description: |
-        + Flexibility
-        + Accuracy
-        + High standard of work ethic    
+        + Managed payroll and financial account records for a large security organisation
+        + Ensured accuracy and compliance in financial reporting and cash handling processes   
 
 project:
   show: true
@@ -169,92 +180,47 @@ project:
 
 
   items:
-    - name: Build a redundant DHCP server for Arclabs companies
-      link:
-      tags:
+    - name: Redundant DHCP Infrastructure — Arclabs
       date: 2025
       description: |
-        + DHCP
-        + Proxmox
-        + Ansible
+        Designed and deployed a fully redundant DHCP infrastructure for Arclabs, 
+        automating the entire deployment and configuration using Ansible to ensure 
+        consistency, reliability, and rapid recovery in case of failure.
+        + Proxmox, Ansible, DHCP
 
-    - name: Lifecycle Manager and Cataloge
-      link:
-      tags:
+    - name: Infrastructure Lifecycle Manager
       date: 2024
       description: |
-        + Server catalogue
-        + Determine server and lan devices age
+        Built a full-stack web application to replace manual tracking of server and 
+        network device inventory. Enables lifecycle planning, hardware age tracking, 
+        and data centre refresh cycle management — the first structured system of 
+        its kind at the institute.
+        + JavaScript, Node.js, Handlebars, MongoDB
 
-    - name: Work project - Monitoring for Thales Ip Encrypors
-      link:
-      tags:
+    - name: Quantum Encryptor Monitoring — Thales IP Encryptors
       date: 2023
       description: |
-        + Python code
-        + MQTT
-        + InfluxDB
-        + Grafana monitoring
+        Developed a real-time monitoring solution for quantum Thales IP encryptors, 
+        providing visibility into cryptographic hardware health and operational status.
+        + Python, MQTT, InfluxDB, Grafana
 
-    - name: Work Project - Eddy Covariance tower
-      link:
-      tags:
+    - name: Eddy Covariance Research Tower
       date: 2021 - 2022
       description: |
-        + Build an Eddy covariance tower
-        + Build IT Networking for EC tower and data logging 
-         
-    - name: Work Project - Mailman3
-      link:
-      tags:
+        Designed and deployed the complete IT networking infrastructure for a 
+        scientific Eddy Covariance environmental monitoring tower installed at an 
+        outdoor field location. The tower captures atmospheric and soil data including 
+        humidity, radiation, and soil sensors for environmental research purposes.
+        + Network Design, Data Logging, Field Deployment
+
+    - name: Mailman3 LISTSERV Deployment
       date: 2021
       description: |
-        + Build, deploy and automate mailman3 listserv
-        + Ansible
-    
-    - name: Personal Project - Network Topology with R
-      link:
-      tags:
-      date: 2021
-      description: |
-        + Model a particular network topology using R
-        + Improves decision making about what network routing protocols to use
-
-    - name: Personal private project - Hotel Management system
-      link:
-      tags:
-      date: 2020
-      description: |
-        + booking system
-        + Javascript + NodeJs
-
-    - name: Personal private project - RageDB
-      link:
-      tags:
-      date: 2019
-      description: |
-        + This program is used to read and transform CSV file format to an XSL file format
-        + The input is limited to eircode
-        + The program can be used to load all the eircode and pin locations in Google Earth for visual analysis
-    
-    - name: WIT College Project AWS
-      link:
-      tags:
-      date: 2018
-      description: |
-        + Elastic Compute Cloud EC2
-        + Load Balancer
-        + SQL Server in a private subnet
-        + Virtual Private Cloud
-        + Auto Scaling Group
-
-    - name: WIT College Project - E-commerce website
-      link:
-      tags:
-      date: 2016
-      description: |
-        + e-commerce
-        + java
+        Deployed and fully automated a Mailman3 mailing list server supporting 
+        over 100 mailing lists and 100+ users across the institute. Automated 
+        the entire deployment pipeline using Ansible for repeatable and 
+        consistent configuration management.
+        + Ansible, Mailman3, Linux
 
 # skill:
 #   show: true
@@ -304,9 +270,7 @@ education:
       major: MSc in Computer Science (Enterprise Software Systems)
       degree: Masters
       description: |
-        + This MSc programme is designed to develop and refine a set of skills essential for successful engagement of enterprises with information
-         and communications technology (ICT). The main themes of the programme are business systems analysis and enterprise software development,
-          supporting the entire business systems lifecycle.
+        Focused on enterprise software systems, business analysis, and ICT strategy. 4 modules completed.
 
     - institution: South East Technological University, Waterford, Ireland
       link: 'https://www.setu.ie/'
@@ -314,7 +278,7 @@ education:
       major: Higher Diploma in Computer Science
       degree: Higher Diploma
       description: |
-        + The HDIP in Computer Science course has a strong focus on full stack development.
+        Focused on full stack development, object-oriented programming, and software engineering.
 
     - institution: Waterford Institute of Technology, Waterford, Ireland
       link: 'https://www.wit.ie/'
@@ -322,7 +286,7 @@ education:
       major: Bachelor of Science in Information Technology
       degree: Bachelor of Science
       description: |
-        + This course is built on three core computing areas, Databases and Information Systems, Computer Networks, Cloud Computing and Programming.
+        Focused on computer networks, cloud computing, databases, and information systems. Graduated Merit 1.
 
 certificate:
   show: true
@@ -331,66 +295,49 @@ certificate:
   description: |
 
   items:
-    - name: Safe Pass
-      issuer: Solas
-      date: 2023/09/01
+    - name: Red Hat Certified System Administrator (RHCSA)
+      issuer: Red Hat
+      date: Jun 2024
       link:
       description: |
-        Safe Pass is a mandatory safety awareness training programme for construction workers.
-    - name: Protecting Data when Home Working in Ireland
-      issuer: Legal Island
-      date: 2023/08/15
-      link:
-      description: |
-        Cyber Security training course
-    - name: Data Protection in the Republic of Ireland Workplace
-      issuer: Legal Island
-      date: 2023/08/18
-      link:
-      description: |
-        GDPR training course
-    - name: Cyber Security in the Republic of Ireland Workplace
-      issuer: Legal Island
-      date: 2023/08/09
-      link:
-      description: |
-        Cyber Security training course
+        Credential ID: RH134
+
+    # - name: IBM Mainframe
+    #   issuer: IBM
+    #   date:
+    #   link:
+    #   description:
+
     - name: NDG Linux Essentials
-      issuer: by Cisco Networking Academy
+      issuer: Cisco Networking Academy
       date: 2023
       link:
       description: |
         IT skills & career building program, available to learning institutions & individuals worldwide - developed by Cisco CSR
-    - name: Learning Nagios
-      issuer: by LinkedIn
-      date: 2020
-      link:
-      description: |
-        Learning how to use Nagios core monitoring
-    - name: Research Integrity - Engineering and Technology
-      issuer: by Oxford University Press
-      date: 2020
-      link:
-      description: |
-        Quality research and education resources
+
     - name: Deploying and Configuring Core TCP/IP Services
-      issuer: by LinkedIn
+      issuer: LinkedIn
       date: 2020
       link:
       description: |
         Learning more about TCP/IP protocol
-    - name: Windows Server 2012 Install, Configure, and Administer Active Directory
-      issuer: by LinkedIn
+
+    - name: Learning Nagios
+      issuer: LinkedIn
       date: 2020
       link:
       description: |
-        Windows hierarchy system
-    - name: Windows Server 2012 Install and Configuration
-      issuer: by LinkedIn
+        Learning how to use Nagios core monitoring
+
+    - name: Research Integrity - Engineering and Technology
+      issuer: Oxford University Press
       date: 2020
       link:
       description: |
-        More about Windows Server deployment
+        Quality research and education resources
+
+
+
 
 #publication:
  # show: true
@@ -510,6 +457,7 @@ interest:
       link:
     - item: Cooking
       link:
+    - item: Open Source & Home Lab Projects
 
 #evaluation:
 #  show: true
