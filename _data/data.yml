@@ -456,8 +456,6 @@ interest:
   items:
     - item: Swimming
       link:
-    - item: Cooking
-      link:
     - item: Open Source & Home Lab Projects
 
 #evaluation:
