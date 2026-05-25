@@ -180,7 +180,7 @@ project:
 
 
   items:
-    - name: Redundant DHCP Infrastructure — Arclabs
+    - name: Redundant DHCP Infrastructure, Arclabs
       date: 2025
       description: |
         Designed and deployed a fully redundant DHCP infrastructure for Arclabs, 
@@ -193,11 +193,11 @@ project:
       description: |
         Built a full-stack web application to replace manual tracking of server and 
         network device inventory. Enables lifecycle planning, hardware age tracking, 
-        and data centre refresh cycle management — the first structured system of 
+        and data center refresh cycle management, the first structured system of 
         its kind at the institute.
         + JavaScript, Node.js, Handlebars, MongoDB
 
-    - name: Quantum Encryptor Monitoring — Thales IP Encryptors
+    - name: Quantum Encryptor Monitoring, Thales IP Encryptors
       date: 2023
       description: |
         Developed a real-time monitoring solution for quantum Thales IP encryptors, 
@@ -207,11 +207,12 @@ project:
     - name: Eddy Covariance Research Tower
       date: 2021 - 2022
       description: |
-        Designed and deployed the complete IT networking infrastructure for a 
-        scientific Eddy Covariance environmental monitoring tower installed at an 
-        outdoor field location. The tower captures atmospheric and soil data including 
-        humidity, radiation, and soil sensors for environmental research purposes.
-        + Network Design, Data Logging, Field Deployment
+         Physically assembled and deployed a scientific Eddy Covariance environmental 
+         monitoring tower from component parts, and designed and built the complete IT 
+         networking infrastructure for the installation at an outdoor field location. 
+         The tower captures atmospheric and soil data including humidity, radiation, and 
+         soil sensors supporting active environmental research.
+         + Hardware Assembly, Network Design, Data Logging, Field Deployment
 
     - name: Mailman3 LISTSERV Deployment
       date: 2021
