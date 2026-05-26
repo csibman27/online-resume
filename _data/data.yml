@@ -85,7 +85,7 @@ profile:
   description: |
   
     Technical Officer and Infrastructure Engineer with 6+ years at a leading Irish research institute, specialising in the design, deployment, and administration of complex, high-performance computing environments and cutting-edge quantum infrastructure.
-    My hands-on experience spans the full data center stack, from physical infrastructure including UPS systems, diesel generators and chiller cooling systems, through to virtualisation (Openstack, VMware ESXi, Proxmox), SAN storage, and enterprise networking with Cisco and Arista switching platforms.
+    My hands-on experience spans the full data centre stack, from physical infrastructure including UPS systems, diesel generators and chiller cooling systems, through to virtualisation (Openstack, VMware ESXi, Proxmox), SAN storage, and enterprise networking with Cisco and Arista switching platforms.
     On the quantum side, I manage and configure quantum cryptographic equipment including quantum IP encryptors, Quantum Random Number Generators (QRNGs), and Quantum Hardware Security Modules (HSMs),  a rare and highly specialised skillset with very few practitioners globally.
     I take a DevOps approach to infrastructure management, using Ansible to automate the deployment and configuration of critical infrastructure services including DNS, DHCP, Checkmk, Nagios, LISTSERV, and many others. I also administer OpenShift and OpenStack platforms, bridging traditional infrastructure with modern cloud-native environments.
     Monitoring and reliability are core to my work, with hands-on experience across Checkmk and Nagios for system observability across large-scale environments.
@@ -112,7 +112,7 @@ experience:
         + Administer OpenShift container platform supporting research computing workloads
         + Provide technical consulting and IT guidance to researchers and academic staff
         + Expanding into IBM Z mainframe technologies as part of ongoing professional development
-        + Perform network patching and infrastructure cabling within the data center environment
+        + Perform network patching and infrastructure cabling within the data centre environment
 
     - company: South East Technological University - Walton Institute
       link: 'https://waltoninstitute.ie/'
@@ -193,7 +193,7 @@ project:
       description: |
         Built a full-stack web application to replace manual tracking of server and 
         network device inventory. Enables lifecycle planning, hardware age tracking, 
-        and data center refresh cycle management, the first structured system of 
+        and data centre refresh cycle management, the first structured system of 
         its kind at the institute.
         + JavaScript, Node.js, Handlebars, MongoDB
 
