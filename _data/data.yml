@@ -296,18 +296,26 @@ certificate:
   description: |
 
   items:
+    - name: IBM Z Xplore - Advanced
+      issuer: IBM
+      date: August 2026
+      link:
+      description: |
+        3270 terminal, Ansible, COBOL, Db2, Docker, IBM Z, Linux, PWID-B0267100, REXX, Regex, TSO, Utilities, VSAM
+        
+    - name: IBM Z Xplore - Concepts
+      issuer: IBM
+      date: August 2026
+      link:
+      description: |
+        Bash, IBM Z, JCL, MVS Commands, PWID-B0105500, Programming, Python, Zowe, z/OS, z/OS UNIX
+        
     - name: Red Hat Certified System Administrator (RHCSA)
       issuer: Red Hat
       date: Jun 2024
       link:
       description: |
         Credential ID: RH134
-
-    # - name: IBM Mainframe
-    #   issuer: IBM
-    #   date:
-    #   link:
-    #   description:
 
     - name: NDG Linux Essentials
       issuer: Cisco Networking Academy
